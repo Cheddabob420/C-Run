@@ -12,8 +12,8 @@ Designed to streamline small projects, quick tests, and daily C programming work
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Cheddabob420/C-Run.git](https://github.com/Cheddabob420/C-Run.git) cd C-Run && chmod +x crun
+```bash
+git clone [https://github.com/Cheddabob420/C-Run.git](https://github.com/Cheddabob420/C-Run.git) cd C-Run && chmod +x crun
 ```
 
 
