@@ -18,7 +18,8 @@ git clone [https://github.com/Cheddabob420/C-Run.git](https://github.com/Cheddab
 
 
 
-2. **Add to your PATH:** To run crun from any directory, move it to a directory in your system $PATH (e.g., ~/bin or /usr/local/bin):
+2. **Add to your PATH:** 
+To run crun from any directory, move it to a directory in your system $PATH (e.g., ~/bin or /usr/local/bin):
 
 ```bash
 mv crun ~/.local/bin/
