@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+    echo "Usage: crun <file-to-compile> [output-name]"
+    echo "This is a helper script to compile and run C files."
+    exit 1
+fi
+
+input_file="$1"
+base_name="${input_file%.*}"
+
+if [ -n "$2" ]; then
+    out_name="$2"
+else
+    out_name="$base_name"
+fi
+
+gcc "$input_file" -o "$out_name" && ./"$out_name"
+
