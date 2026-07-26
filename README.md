@@ -9,6 +9,15 @@ Designed to streamline small projects, quick tests, and daily C programming work
 - **One-step execution:** Compiles with `gcc` and immediately runs the binary if compilation succeeds.
 - **Flexible output naming:** Automatically names the output binary after the source file by default, or lets you specify a custom binary name.
 
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Cheddabob420/C-Run.git](https://github.com/Cheddabob420/C-Run.git) cd C-Run && chmod +x crun
+```
+
+
+
 - **(Optional) Add to your PATH:
 To run crun from any directory, move it to a directory in your system $PATH (e.g., ~/bin or /usr/local/bin):
 
